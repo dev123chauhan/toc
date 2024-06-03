@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+}
+.toc {
+    background: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.toc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.toc-table th, .toc-table td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+.toc-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+.toc a {
+    color: #007bff;
+    text-decoration: none;
+}
+.toc a:hover {
+    text-decoration: underline;
+}
